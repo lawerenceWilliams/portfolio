@@ -16,7 +16,7 @@ render(){
             <Header title= 'Stylish Portfolio' button= 'Find Out More'/>
         </div>
     )
-    //test
+    
 }
 
 }
