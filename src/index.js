@@ -4,9 +4,7 @@ import './index.css';
 import './App.css';
 import Navigation from './Navigation';
 import Header from './Header';
-// import Background from './img/background1.png'
-// import registerServiceWorker from './registerServiceWorker';
-
+import Services from  './Services';
 
 class App extends Component {
 render(){
@@ -14,6 +12,7 @@ render(){
         <div className="myStyles">
             <Navigation logoTitle= 'Lawerence Williams'/>
             <Header title= 'Stylish Portfolio' button= 'Find Out More'/>
+            <Services />
         </div>
     )
     
@@ -27,4 +26,3 @@ ReactDOM.render(<App />, document.getElementById('root'));
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: http://bit.ly/CRA-PWA
 // registerServiceWorker();
-// test

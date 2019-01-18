@@ -1,0 +1,19 @@
+.services{
+    background-color: #83f0f0;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+
+.services h3{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #d994ee;
+}
+
+.services h2{
+    font-size: 48px #fff;
+    margin-bottom: 48px;
+    margin-top: 0;
+}
