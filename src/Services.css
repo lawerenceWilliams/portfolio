@@ -17,3 +17,37 @@
     margin-bottom: 48px;
     margin-top: 0;
 }
+
+.services > .row{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.services > .row span{
+    background-color: #7ca52f;
+    width: 112px;
+    height: 112px;
+    display: inline-block;
+    border-radius: 50px;
+    color: #2e31f1;
+    font-size: 36px;
+    line-height: 120px;
+    contain: none;
+
+}
+
+.services > .row h4{
+    margin-bottom: 8px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    font-size: 24px;
+    color: #2e31f1;
+}
+
+.services > .row p{
+    font-size: 16px;
+    color: #7ca52f;
+}
